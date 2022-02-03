@@ -11,7 +11,8 @@ InstanceOf: Questionnaire
 Description: "Pharmaceutical Product identifying attributes"
 Title:    "Pharmaceutical Product"
 * identifier[0].system = "http://hl7belgium.org"
-* identifier[0].value = "questionnaire-vmp"
+* identifier[0].value = "questionnaire-php"
+
 * name = "questionnaire-php"
 * title = "Pharmaceutical Product identifying attributes"
 * status = #active
@@ -69,7 +70,7 @@ Description: "Packaged Product identifying attributes"
 Title:    "Packaged Product"
 
 * identifier[0].system = "http://hl7belgium.org"
-* identifier[0].value = "questionnaire-ampp"
+* identifier[0].value = "questionnaire-pc"
 
 * name = "questionnaire-pc"
 * title = "Packaged Product"
